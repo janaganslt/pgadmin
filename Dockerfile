@@ -11,6 +11,6 @@ RUN chown 1000961000:1000961000 /pgadmin4 && \
 USER 1000961000
 
 VOLUME /var/lib/pgadmin
-EXPOSE 80 443
+EXPOSE 8080 8443
 
 ENTRYPOINT ["/entrypoint.sh"]
